@@ -14,7 +14,7 @@ A biotech enthusiast.
 - Contributed to the development of **Fast SOFI** (Super-resolution Optical Fluctuation Imaging) using deep learning, with the goal of enabling real-time imaging in live-cell applications. Ultimately, the model reconstructs super-resolved images from just 8 low-resolution frames, achieving a two-fold improvement in spatial resolution.
 - Supporting the preparation of a **scientific publication** based on prior contributions to deep-learning-based SOFI acceleration during MSc research.
 
-**Software Engineer @ VU Amsterdam | Electronica Beta (_August 2022 - Present_)**
+**Software Engineer @ VU Amsterdam | Electronics Group (_August 2022 - Present_)**
 - Co-developing **LabOrch**, a Python-based lab orchestrator designed to control scientific instrumentation through a modular microservices architecture. Enables seamless integration of diverse lab devices with unified control, real-time feedback, metadata handling, and a logging API layer.
 - Developed the embedded software architecture for the **Line Controller**, an industrial Ethernet (Modbus-based) device used to control scientific instrumentation via various digital and analog hardware interfaces.
 
