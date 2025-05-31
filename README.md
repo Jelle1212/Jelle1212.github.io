@@ -1,8 +1,8 @@
 # Software/Machine Learning Engineer
 A biotech enthusiast.
 
-### Technical Skills: Machine Learning (ML), Deep Learning (DL), Image Processing, Embedded Systems, Software Architecture, Fluorescence Microscopy
-### Programming Langueges: Python, C/C++, CUDA, Rust, MATLAB, Java, VHDL
+#### Technical Skills: ML, DL, Image Processing, Embedded Systems, Software Architecture, Fluorescence Microscopy
+#### Programming Langueges: Python, C/C++, CUDA, Rust, MATLAB, Java, VHDL
 
 ## Education
 - MSc., Embedded and Computer Engineering | TU Delft (_October 2024_)
