@@ -18,7 +18,7 @@ A biotech enthusiast.
 - Co-developing **LabOrch**, a Python-based lab orchestrator designed to control scientific instrumentation through a modular microservices architecture. Enables seamless integration of diverse lab devices with unified control, real-time feedback, metadata handling, and a logging API layer.
 - Developed the embedded software architecture for the **Line Controller**, an industrial Ethernet (Modbus-based) device used to control scientific instrumentation via various digital and analog hardware interfaces.
 
-- **Intern Electronics Engineer @ LUMICKS (_Februari 2022 - June 2022_)**
+**Intern Electronics Engineer @ LUMICKS (_Februari 2022 - June 2022_)**
 -  Designed an FPGA-based demo system for the C-Trap [optical tweezer](https://en.wikipedia.org/wiki/Optical_tweezers) to explore integration of beam steering (Piezo, EOD, AOD) and force sensing (PSDs, sCMOS) using a high-bandwidth PID control loop.
 
 ## Projects
