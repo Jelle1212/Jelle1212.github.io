@@ -29,7 +29,7 @@ I re-implemented the algorithm in C and further optimized it using CUDA. While t
 
 The plot below compares the performance of the optimized and default eSRRF implementations in terms of frames per second (FPS) across different image sizes. The optimized version supports real-time super-resolution imaging even at full field of view (FOV): for 2048×2048 images, it achieves 18 FPS, and for 1024×1024 images, up to 73 FPS. These benchmarks were run on an NVIDIA RTX 3090, with eSRRF parameters set to: magnification = 5, radius = 2, sensitivity = 1, weighting = 1, and temporal type = TAC2.
 
-![optimized vs default eSRRF](/assets/esrrf_comparison_plot.png)
+![optimized vs default eSRRF](assets/esrrf_comparison_plot.png)
 
 The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using the optimized eSRRF implementation. Parameters used:
 - Magnification (M) = 5
