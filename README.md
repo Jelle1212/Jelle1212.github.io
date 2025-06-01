@@ -33,7 +33,15 @@ The plot below compares the performance of the optimized and default eSRRF imple
 
 The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using the optimized eSRRF implementation. Tip: Scroll through the video to observe dynamic structural changes!
 
-<video width="640" height="360" controls>
+<style>
+  .responsive-video {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+  }
+</style>
+
+<video class="responsive-video" controls>
   <source src="/assets/output_res.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
