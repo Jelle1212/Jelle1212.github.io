@@ -31,12 +31,7 @@ The plot below compares the performance of the optimized and default eSRRF imple
 
 ![optimized vs default eSRRF](assets/esrrf_comparison_plot.png)
 
-The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using the optimized eSRRF implementation. Parameters used:
-- Magnification (M) = 5
-- Radius (R) = 2
-- Sensitivity (S) = 1
-- Frames = 1000
-- Rolling window size = 10
+The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using the optimized eSRRF implementation. Tip scroll through the video to see the dynamic changes!
 
 <video width="640" height="360" controls>
   <source src="/assets/output_res.mp4" type="video/mp4">
