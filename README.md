@@ -37,5 +37,8 @@ The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using th
 - Sensitivity (S) = 1
 - Frames = 1000
 - Rolling window size = 10
-  
-![live cell](/assets/output_res.mp4)
+
+<video width="640" height="360" autoplay muted loop>
+  <source src="/assets/output_res.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
