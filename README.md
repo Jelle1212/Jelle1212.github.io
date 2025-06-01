@@ -23,3 +23,10 @@ A biotech enthusiast.
 
 ## Projects
 ### Real-Time eSRRF
+To sharpen my CUDA programming skills, I optimized [eSRRF](https://www.nature.com/articles/s41592-023-02057-w) (enhanced super-resolution radial fluctuations), an super-resolution algorithm that analyzis the radial intensity fluctuations in fluorescent images to compute a super-resolved image, as a personal project. eSRRF is widely used in live-cell super-resolution microscopy. However, its high computational cost limits its use as a real-time imaging that would allow users to tweak microscope settings on the fly and save valuable time. 
+
+I re-implemented the algorithm in C and further optimized it using CUDA. While the core structure remains the same, I replaced the original temporal analysis—which waits for *n* frames before generating a result—with a rolling window approach. This enables continuous frame-by-frame output at the camera’s frame rate while preserving the same temporal resolution (*n*). As a result, the system produces super-resolved images in real time, paving the way for on-the-fly microscope tuning, real-time modality switching, high-throughput phenotyping, and integration with statistical or machine learning pipelines.
+
+The plot below compares the performance of the optimized and default eSRRF implementations in terms of frames per second (FPS) across different image sizes. The optimized version supports real-time super-resolution imaging even at full field of view (FOV): for 2048×2048 images, it achieves 18 FPS, and for 1024×1024 images, up to 73 FPS. These benchmarks were run on an NVIDIA RTX 3090, with eSRRF parameters set to: magnification = 5, radius = 2, sensitivity = 1, weighting = 1, and temporal type = TAC2.
+
+![optimized vs default eSRRF](/assets/esrrf_comparison_plot.png)
