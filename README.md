@@ -10,9 +10,10 @@ A biotech enthusiast.
 
 ## Work Experience
 **Research Scientist @ TU Delft | Grussmayer Lab (_Januari 2025 - Present_)**
-- Developed a **[Focus Lock](https://ir.amolf.nl/pub/10774/16893publishedVersion.pdf)** system to correct for lateral drift by adjusting the axial position of the microscope, enabling stable live-cell and single-molecule imaging.
+- Developed a **[Focus Lock](https://ir.amolf.nl/pub/10774/16893publishedVersion.pdf)** system to correct for lateral drift by adjusting the axial position of the microscope, enabling stable live-cell and single-molecule imaging. [Repo](https://github.com/GrussmayerLab/gFocus).
 - Contributed to the development of **Fast [SOFI](https://en.wikipedia.org/wiki/Super-resolution_optical_fluctuation_imaging)** (Super-resolution Optical Fluctuation Imaging) using deep learning, with the goal of enabling real-time imaging in live-cell applications. Ultimately, the model reconstructs super-resolved images from just 8 low-resolution frames, achieving a two-fold improvement in spatial resolution.
 - Supporting the preparation of a **scientific publication** based on prior contributions to deep-learning-based SOFI acceleration during MSc research.
+- Presented the work at two conferences: SMLMS Lisbon and NWO Biophysics. 
 
 **Software Engineer @ VU Amsterdam | Electronics Group (_August 2022 - Present_)**
 - Co-developing **LabOrch**, a Python-based lab orchestrator designed to control scientific instrumentation through a modular microservices architecture. Enables seamless integration of diverse lab devices with unified control, real-time feedback, metadata handling, and a logging API layer.
@@ -46,3 +47,12 @@ The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using th
   Your browser does not support the video tag.
 </video>
 
+### Fast SOFI
+
+
+## Publications
+### Fast SOFI
+Coming up.
+
+### gFocus
+Coming up.
