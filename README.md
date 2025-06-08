@@ -11,7 +11,7 @@ A biotech enthusiast.
 ## Work Experience
 **Research Scientist @ TU Delft | Grussmayer Lab (_Januari 2025 - Present_)**
 - Developed a **[Focus Lock](https://ir.amolf.nl/pub/10774/16893publishedVersion.pdf)** system to correct for lateral drift by adjusting the axial position of the microscope, enabling stable live-cell and single-molecule imaging. [Repo](https://github.com/GrussmayerLab/gFocus).
-- Contributed to the development of **Fast [SOFI](https://en.wikipedia.org/wiki/Super-resolution_optical_fluctuation_imaging)** (Super-resolution Optical Fluctuation Imaging) using deep learning, with the goal of enabling real-time imaging in live-cell applications. Ultimately, the model reconstructs super-resolved images from just 8 low-resolution frames, achieving a two-fold improvement in spatial resolution.
+- Contributed to the development of **Fast [SOFI](https://en.wikipedia.org/wiki/Super-resolution_optical_fluctuation_imaging)** (Super-resolution Optical Fluctuation Imaging) using deep learning, with the goal of enabling real-time imaging in live-cell applications. Ultimately, the model reconstructs super-resolved images from just 8 low-resolution frames, achieving a two-fold improvement in spatial resolution. [Repo](https://github.com/GrussmayerLab/SOFI-MISRGRU) soon public!
 - Supporting the preparation of a **scientific publication** based on prior contributions to deep-learning-based SOFI acceleration during MSc research.
 - Presented the work at two conferences: SMLMS Lisbon and NWO Biophysics. 
 
@@ -58,8 +58,13 @@ After optimizing the model architecture and inference pipeline, MISGRU outputs s
 
 ![Latency](assets/Ext6_Latency_compare512-1.png)
 
-![microtubules](assets/results_exp2-1.png)
+The figure below compares 20-frame MISRGRU reconstructions with SOFI outputs using up to 10,000 frames in DNA-PAINT microtubule data. From left to right: a single diffraction-limited frame, a 20-frame average upsampled with bilinear interpolation, SOFI with 500 frames, SOFI with 10k frames, and MISRGRU with just 20 frames.
 
+An 8-frame version is coming soon! Initially, we used 20 frames as a solid starting point, but 8 frames strikes a better balance between temporal resolution and overall image quality. Still, this gives a good impression of how MISRGRU performs on real data.
+
+White arrows mark regions where MISRGRU reconnects filaments that appear broken in the widefield average—demonstrating clear structural recovery at drastically lower frame counts.
+Scale bar: 1000 nm.
+![microtubules](assets/results_exp2-1.png)
 ## Publications
 ### Fast SOFI
 Coming up.
