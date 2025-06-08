@@ -54,9 +54,9 @@ MISGRU addresses both limitations. It takes a short sequence of low-resolution f
 
 After optimizing the model architecture and inference pipeline, MISGRU outputs second-order super-resolved images at latencies as low as 27 ms—a 400× speedup over the SOFI baseline—while preserving the same twofold spatial resolution improvement. This brings us closer to real-time live-cell super-resolution imaging, with a temporal resolution of just 8 frames per image.
 
-![Latency](assets/latency_improved)
+![Latency](assets/latency_improved.pdf)
 
-![microtubules](assets/results/exp2)
+![microtubules](assets/results/exp2.pdf)
 ## Publications
 ### Fast SOFI
 Coming up.
