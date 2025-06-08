@@ -58,7 +58,7 @@ After optimizing the model architecture and inference pipeline, MISGRU outputs s
 
 ![Latency](assets/Ext6_Latency_compare512-1.png)
 
-![microtubules](assets/results/results_exp2-1.png)
+![microtubules](assets/results_exp2-1.png)
 
 ## Publications
 ### Fast SOFI
