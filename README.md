@@ -49,7 +49,7 @@ The video below demonstrates live-cell HiLO-TIRF imaging of COS-7 cells using th
 
 
 
-### Fast SOFI
+### Enabling Real-Time Fluctuation-Based Super Resolution Imaging
 To accelerate fluctuation-based super-resolution imaging, I adapted and trained [MISGRU](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w11/Arefin_Multi-Image_Super-Resolution_for_Remote_Sensing_Using_Deep_Recurrent_Networks_CVPRW_2020_paper.pdf)—a recursive neural network originally designed for remote sensing—as part of my master’s thesis. These types of super-resolution techniques, like SOFI (super-resolution optical fluctuation imaging), analyze temporal intensity fluctuations in fluorescence microscopy to recover sub-diffraction detail. However, they typically require hundreds of frames and intensive post-processing to generate a single image, making them unsuitable for real-time applications.
 
 MISGRU addresses both limitations. It takes a short sequence of low-resolution frames and integrates spatio-temporally correlated blinking signals to predict a super-resolved image. I trained the network using second-order SOFI reconstructions as the target, but with only 8-frame inputs. The goal was to retain the spatial benefits of SOFI while massively reducing latency and frame requirements.
@@ -66,8 +66,8 @@ White arrows mark regions where MISRGRU reconnects filaments that appear broken 
 Scale bar: 1000 nm.
 ![microtubules](assets/results_exp2-1.png)
 ## Publications
-### Fast SOFI
-Coming up.
+### Enabling Real-Time Fluctuation-Based Super Resolution Imaging
+[https://www.biorxiv.org/content/10.1101/2025.06.05.658028v1](https://www.biorxiv.org/content/10.1101/2025.06.05.658028v1)
 
 ### gFocus
 Coming up.
