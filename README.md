@@ -3,10 +3,14 @@ Engineer with a strong foundation in deep learning, embedded systems, and perfor
 
 
 #### Technical Skills
-##### Languages: Python, C/C++, CUDA, Rust, Java, MATLAB, VHDL  
-##### Frameworks: PyTorch, Scikit-learn, Pandas, SciPy, NumPy, FastAPI  
-##### Technologies: ML, DL, CV, Real-Time Systems, Embedded Software, Microservices, Model Optimization, FPGA (Xilinx/AMD)
-##### Tools & Platforms: Git, Linux, Docker, Jupyter, VSCode, AWS(learning)  
+##### Languages: 
+Python, C/C++, CUDA, Rust, Java, MATLAB, VHDL  
+##### Frameworks: 
+PyTorch, Scikit-learn, Pandas, SciPy, NumPy, FastAPI  
+##### Technologies: 
+ML, DL, CV, Real-Time Systems, Embedded Software, Microservices, Model Optimization, FPGA (Xilinx/AMD)
+##### Tools & Platforms: 
+Git, Linux, Docker, Jupyter, VSCode, AWS(learning)  
 
 ## Education
 - MSc., Embedded and Computer Engineering | TU Delft (_October 2024_)
