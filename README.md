@@ -9,6 +9,7 @@ Python, C/C++, CUDA, Rust, Java, MATLAB, VHDL
 PyTorch, Scikit-learn, Pandas, SciPy, NumPy, FastAPI  
 ##### Technologies: 
 ML, DL, CV, Real-Time Systems, Embedded Software, Microservices, Model Optimization, FPGA (Xilinx/AMD)
+
 ##### Tools & Platforms: 
 Git, Linux, Docker, Jupyter, VSCode, AWS(learning)  
 
