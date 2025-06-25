@@ -1,4 +1,4 @@
-# Software/Machine Learning Engineer
+# Machine Learning/Software Engineer
 Engineer with a strong foundation in deep learning, embedded systems, and performance optimization. Experienced in building scalable, GPU-accelerated pipelines for real-time AI applications—ranging from image processing and automation to scientific computing. Passionate about making machine learning models fast, efficient, and production-ready.
 
 
